@@ -4,12 +4,7 @@
 */
 
 function getResult (str, obj){
-    let result;
-    if(str in obj){
-        alert ('true');
-    } else {
-        alert ('false');
-    }
+    alert(str in obj);
 }
 
 
@@ -19,3 +14,5 @@ object1 = {
 };
 let name = 'book';
 getResult(name, object1);
+
+// Задание выполнено верно, но функцию можно было сделать проще, т.к. оператор in (str in obj) сразу возвращает результат true или false
